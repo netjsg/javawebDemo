@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">  
+  <packaging xmlns="http://maven.apache.org/POM/4.0.0">war</packaging>
+  <servlet> 
+    <servlet-name>ListCakeServlet</servlet-name>  
+    <servlet-class>Sevlet.ListCakeServlet</servlet-class> 
+  </servlet>  
+  <servlet-mapping> 
+    <servlet-name>ListCakeServlet</servlet-name>  
+    <url-pattern>/ListCakeServlet</url-pattern> 
+  </servlet-mapping>  
+  <servlet> 
+    <servlet-name>PurchaseServlet</servlet-name>  
+    <servlet-class>Sevlet.PurchaseServlet</servlet-class> 
+  </servlet>  
+  <servlet-mapping> 
+    <servlet-name>PurchaseServlet</servlet-name>  
+    <url-pattern>/purchase</url-pattern> 
+  </servlet-mapping>  
+  <servlet> 
+    <servlet-name>CartServlet</servlet-name>  
+    <servlet-class>Sevlet.CartServlet</servlet-class> 
+  </servlet>  
+  <servlet-mapping> 
+    <servlet-name>CartServlet</servlet-name>  
+    <url-pattern>/CartServlet</url-pattern> 
+  </servlet-mapping> 
+</web-app>
